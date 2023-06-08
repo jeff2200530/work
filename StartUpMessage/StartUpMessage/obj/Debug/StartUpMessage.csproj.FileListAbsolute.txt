@@ -1,0 +1,10 @@
+C:\Users\Jeff\Desktop\work\StartUpMessage\StartUpMessage\bin\Debug\StartUpMessage.exe.config
+C:\Users\Jeff\Desktop\work\StartUpMessage\StartUpMessage\bin\Debug\StartUpMessage.exe
+C:\Users\Jeff\Desktop\work\StartUpMessage\StartUpMessage\bin\Debug\StartUpMessage.pdb
+C:\Users\Jeff\Desktop\work\StartUpMessage\StartUpMessage\obj\Debug\StartUpMessage.csproj.AssemblyReference.cache
+C:\Users\Jeff\Desktop\work\StartUpMessage\StartUpMessage\obj\Debug\StartUpMessage.Form1.resources
+C:\Users\Jeff\Desktop\work\StartUpMessage\StartUpMessage\obj\Debug\StartUpMessage.Properties.Resources.resources
+C:\Users\Jeff\Desktop\work\StartUpMessage\StartUpMessage\obj\Debug\StartUpMessage.csproj.GenerateResource.cache
+C:\Users\Jeff\Desktop\work\StartUpMessage\StartUpMessage\obj\Debug\StartUpMessage.csproj.CoreCompileInputs.cache
+C:\Users\Jeff\Desktop\work\StartUpMessage\StartUpMessage\obj\Debug\StartUpMessage.exe
+C:\Users\Jeff\Desktop\work\StartUpMessage\StartUpMessage\obj\Debug\StartUpMessage.pdb

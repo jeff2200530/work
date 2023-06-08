@@ -1,0 +1,17 @@
+C:\Users\Jeff\Desktop\work\Design Pattern\Design Pattern\bin\Debug\Design Pattern.pdb
+C:\Users\Jeff\Desktop\work\Design Pattern\Design Pattern\obj\Debug\Design Pattern.csproj.AssemblyReference.cache
+C:\Users\Jeff\Desktop\work\Design Pattern\Design Pattern\obj\Debug\Design_Pattern.Form1.resources
+C:\Users\Jeff\Desktop\work\Design Pattern\Design Pattern\obj\Debug\Design_Pattern.Properties.Resources.resources
+C:\Users\Jeff\Desktop\work\Design Pattern\Design Pattern\obj\Debug\Design Pattern.csproj.GenerateResource.cache
+C:\Users\Jeff\Desktop\work\Design Pattern\Design Pattern\obj\Debug\Design Pattern.csproj.CoreCompileInputs.cache
+C:\Users\Jeff\Desktop\work\Design Pattern\Design Pattern\obj\Debug\Design Pattern.pdb
+C:\Users\Jeff\Desktop\work\Design Pattern\Design Pattern\bin\Debug\Design Pattern.exe.config
+C:\Users\Jeff\Desktop\work\Design Pattern\Design Pattern\bin\Debug\Design Pattern.exe
+C:\Users\Jeff\Desktop\work\Design Pattern\Design Pattern\obj\Debug\Design Pattern.exe
+C:\Users\Jeff\Desktop\work\Design Pattern\Design Pattern\bin\Debug\AWSSDK.Core.dll
+C:\Users\Jeff\Desktop\work\Design Pattern\Design Pattern\bin\Debug\AWSSDK.SQS.dll
+C:\Users\Jeff\Desktop\work\Design Pattern\Design Pattern\bin\Debug\AWSSDK.Core.pdb
+C:\Users\Jeff\Desktop\work\Design Pattern\Design Pattern\bin\Debug\AWSSDK.Core.xml
+C:\Users\Jeff\Desktop\work\Design Pattern\Design Pattern\bin\Debug\AWSSDK.SQS.pdb
+C:\Users\Jeff\Desktop\work\Design Pattern\Design Pattern\bin\Debug\AWSSDK.SQS.xml
+C:\Users\Jeff\Desktop\work\Design Pattern\Design Pattern\obj\Debug\Design Pattern.csproj.CopyComplete

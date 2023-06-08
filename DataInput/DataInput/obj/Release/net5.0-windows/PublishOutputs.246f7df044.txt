@@ -1,0 +1,12 @@
+C:\Users\Jeff\Desktop\發布\FutFileMove_All\FutFileMove_All.exe
+C:\Users\Jeff\Desktop\發布\FutFileMove_All\FutFileMove_All.dll
+C:\Users\Jeff\Desktop\發布\FutFileMove_All\FutFileMove_All.deps.json
+C:\Users\Jeff\Desktop\發布\FutFileMove_All\FutFileMove_All.runtimeconfig.json
+C:\Users\Jeff\Desktop\發布\FutFileMove_All\FutFileMove_All.dll.config
+C:\Users\Jeff\Desktop\發布\FutFileMove_All\FutFileMove_All.pdb
+C:\Users\Jeff\Desktop\發布\FutFileMove_All\System.Data.SqlClient.dll
+C:\Users\Jeff\Desktop\發布\FutFileMove_All\runtimes\win-arm64\native\sni.dll
+C:\Users\Jeff\Desktop\發布\FutFileMove_All\runtimes\win-x64\native\sni.dll
+C:\Users\Jeff\Desktop\發布\FutFileMove_All\runtimes\win-x86\native\sni.dll
+C:\Users\Jeff\Desktop\發布\FutFileMove_All\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Jeff\Desktop\發布\FutFileMove_All\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

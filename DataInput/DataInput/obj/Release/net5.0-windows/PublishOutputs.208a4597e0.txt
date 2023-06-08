@@ -1,0 +1,12 @@
+C:\SystexProject\Tool\BuildTool\Forever_Fu_Cube\cube\publish\FileMove\Daily\FutFileMove_GrpA\FutFileMove_GrpA.exe
+C:\SystexProject\Tool\BuildTool\Forever_Fu_Cube\cube\publish\FileMove\Daily\FutFileMove_GrpA\FutFileMove_GrpA.dll
+C:\SystexProject\Tool\BuildTool\Forever_Fu_Cube\cube\publish\FileMove\Daily\FutFileMove_GrpA\FutFileMove_GrpA.deps.json
+C:\SystexProject\Tool\BuildTool\Forever_Fu_Cube\cube\publish\FileMove\Daily\FutFileMove_GrpA\FutFileMove_GrpA.runtimeconfig.json
+C:\SystexProject\Tool\BuildTool\Forever_Fu_Cube\cube\publish\FileMove\Daily\FutFileMove_GrpA\FutFileMove_GrpA.dll.config
+C:\SystexProject\Tool\BuildTool\Forever_Fu_Cube\cube\publish\FileMove\Daily\FutFileMove_GrpA\FutFileMove_GrpA.pdb
+C:\SystexProject\Tool\BuildTool\Forever_Fu_Cube\cube\publish\FileMove\Daily\FutFileMove_GrpA\System.Data.SqlClient.dll
+C:\SystexProject\Tool\BuildTool\Forever_Fu_Cube\cube\publish\FileMove\Daily\FutFileMove_GrpA\runtimes\win-arm64\native\sni.dll
+C:\SystexProject\Tool\BuildTool\Forever_Fu_Cube\cube\publish\FileMove\Daily\FutFileMove_GrpA\runtimes\win-x64\native\sni.dll
+C:\SystexProject\Tool\BuildTool\Forever_Fu_Cube\cube\publish\FileMove\Daily\FutFileMove_GrpA\runtimes\win-x86\native\sni.dll
+C:\SystexProject\Tool\BuildTool\Forever_Fu_Cube\cube\publish\FileMove\Daily\FutFileMove_GrpA\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\SystexProject\Tool\BuildTool\Forever_Fu_Cube\cube\publish\FileMove\Daily\FutFileMove_GrpA\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

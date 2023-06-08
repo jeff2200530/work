@@ -1,0 +1,12 @@
+C:\Users\Jeff\Desktop\發布\FutNotify\FutNotify.exe
+C:\Users\Jeff\Desktop\發布\FutNotify\FutNotify.dll
+C:\Users\Jeff\Desktop\發布\FutNotify\FutNotify.deps.json
+C:\Users\Jeff\Desktop\發布\FutNotify\FutNotify.runtimeconfig.json
+C:\Users\Jeff\Desktop\發布\FutNotify\FutNotify.dll.config
+C:\Users\Jeff\Desktop\發布\FutNotify\FutNotify.pdb
+C:\Users\Jeff\Desktop\發布\FutNotify\System.Data.SqlClient.dll
+C:\Users\Jeff\Desktop\發布\FutNotify\runtimes\win-arm64\native\sni.dll
+C:\Users\Jeff\Desktop\發布\FutNotify\runtimes\win-x64\native\sni.dll
+C:\Users\Jeff\Desktop\發布\FutNotify\runtimes\win-x86\native\sni.dll
+C:\Users\Jeff\Desktop\發布\FutNotify\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Jeff\Desktop\發布\FutNotify\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

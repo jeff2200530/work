@@ -1,0 +1,12 @@
+C:\Users\Jeff\Desktop\發布\SecFileMove_Apply\SecFileMove_Apply.exe
+C:\Users\Jeff\Desktop\發布\SecFileMove_Apply\SecFileMove_Apply.dll
+C:\Users\Jeff\Desktop\發布\SecFileMove_Apply\SecFileMove_Apply.deps.json
+C:\Users\Jeff\Desktop\發布\SecFileMove_Apply\SecFileMove_Apply.runtimeconfig.json
+C:\Users\Jeff\Desktop\發布\SecFileMove_Apply\SecFileMove_Apply.dll.config
+C:\Users\Jeff\Desktop\發布\SecFileMove_Apply\SecFileMove_Apply.pdb
+C:\Users\Jeff\Desktop\發布\SecFileMove_Apply\System.Data.SqlClient.dll
+C:\Users\Jeff\Desktop\發布\SecFileMove_Apply\runtimes\win-arm64\native\sni.dll
+C:\Users\Jeff\Desktop\發布\SecFileMove_Apply\runtimes\win-x64\native\sni.dll
+C:\Users\Jeff\Desktop\發布\SecFileMove_Apply\runtimes\win-x86\native\sni.dll
+C:\Users\Jeff\Desktop\發布\SecFileMove_Apply\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Jeff\Desktop\發布\SecFileMove_Apply\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

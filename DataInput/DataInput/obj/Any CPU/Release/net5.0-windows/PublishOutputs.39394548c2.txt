@@ -1,0 +1,12 @@
+C:\Users\Jeff\Desktop\發布\bx\bx.exe
+C:\Users\Jeff\Desktop\發布\bx\bx.dll
+C:\Users\Jeff\Desktop\發布\bx\bx.deps.json
+C:\Users\Jeff\Desktop\發布\bx\bx.runtimeconfig.json
+C:\Users\Jeff\Desktop\發布\bx\bx.dll.config
+C:\Users\Jeff\Desktop\發布\bx\bx.pdb
+C:\Users\Jeff\Desktop\發布\bx\System.Data.SqlClient.dll
+C:\Users\Jeff\Desktop\發布\bx\runtimes\win-arm64\native\sni.dll
+C:\Users\Jeff\Desktop\發布\bx\runtimes\win-x64\native\sni.dll
+C:\Users\Jeff\Desktop\發布\bx\runtimes\win-x86\native\sni.dll
+C:\Users\Jeff\Desktop\發布\bx\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Jeff\Desktop\發布\bx\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

@@ -1,0 +1,12 @@
+C:\Users\Jeff\Desktop\發布\FutQuery\FutQuery.exe
+C:\Users\Jeff\Desktop\發布\FutQuery\FutQuery.dll
+C:\Users\Jeff\Desktop\發布\FutQuery\FutQuery.deps.json
+C:\Users\Jeff\Desktop\發布\FutQuery\FutQuery.runtimeconfig.json
+C:\Users\Jeff\Desktop\發布\FutQuery\FutQuery.dll.config
+C:\Users\Jeff\Desktop\發布\FutQuery\FutQuery.pdb
+C:\Users\Jeff\Desktop\發布\FutQuery\System.Data.SqlClient.dll
+C:\Users\Jeff\Desktop\發布\FutQuery\runtimes\win-arm64\native\sni.dll
+C:\Users\Jeff\Desktop\發布\FutQuery\runtimes\win-x64\native\sni.dll
+C:\Users\Jeff\Desktop\發布\FutQuery\runtimes\win-x86\native\sni.dll
+C:\Users\Jeff\Desktop\發布\FutQuery\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Jeff\Desktop\發布\FutQuery\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
