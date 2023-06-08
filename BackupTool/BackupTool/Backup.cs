@@ -42,43 +42,53 @@ namespace DataInput
                     break;
             }
             logger.Trace($"Execute {functionName} Start");
-            if (!File.Exists(zipFilePath))
-                using (ZipArchive zipArchive = ZipFile.Open(zipFilePath, ZipArchiveMode.Create))
-                {
-                    foreach (string folderPath in foldersToCompress)
-                    {
-                        string folderName = Path.GetFileName(folderPath);
-                        string entryPrefix = $"{folderName}\\";
 
-                        switch (_function)
+
+            if (_function != "B")//A&C
+            {
+                if (!File.Exists(zipFilePath))
+                {
+                    using (ZipArchive zipArchive = ZipFile.Open(zipFilePath, ZipArchiveMode.Create))
+                    {
+                        foreach (string folderPath in foldersToCompress)
                         {
-                            case ("A"):
-                                CompressFolder(folderPath, zipArchive, entryPrefix);
-                                DeleteFolder(folderPath);
-                                break;
-                            case ("B"):
-                                DeleteFolder(folderPath);
-                                break;
-                            case ("C"):
-                                CompressFolder(folderPath, zipArchive, entryPrefix);
-                                break;
+                            string folderName = Path.GetFileName(folderPath);
+                            string entryPrefix = $"{folderName}\\";
+
+                            switch (_function)
+                            {
+                                case ("A"):
+                                    CompressFolder(folderPath, zipArchive, entryPrefix);
+                                    DeleteFolder(folderPath);
+                                    break;
+                                case ("C"):
+                                    CompressFolder(folderPath, zipArchive, entryPrefix);
+                                    break;
+                            }
                         }
                     }
+                    logger.Trace($"Execute {functionName} finish!");
                 }
-            else
-            {
-                logger.Trace($"file：{Path.GetFileName(zipFilePath)} exist");
+                else
+                {
+                    logger.Error($"file：{Path.GetFileName(zipFilePath)} exist");
+                }
             }
-
-            if (_function == "B")
-                File.Delete(zipFilePath);
-            Console.WriteLine("資料夾壓縮完成.");
-            logger.Trace($"Execute {functionName} finish!");
+            else if (_function == "B")//B
+            {
+                foreach (string folderPath in foldersToCompress)
+                {
+                    DeleteFolder(folderPath);
+                }
+                logger.Trace($"Execute {functionName} finish!");
+            }
         }
+
+        /// <summary>
+        /// 設定zip檔名
+        /// </summary>
         public void SetZipFileName()
         {
-
-            //設定zip檔名
             string startDate = null;
             string endDate = null;
             logger.Trace("SetZipFileName Start");
@@ -99,16 +109,18 @@ namespace DataInput
             catch (Exception ex)
             {
                 logger.Error("SetZipFileName Error");
+                logger.Error($"Error Message:{ex}");
                 Console.WriteLine("SetZipFileName Error");
                 Console.WriteLine(ex);
             }
 
             logger.Trace("SetZipFileName finish");
         }
+        /// <summary>
+        /// 取得壓縮路徑清單
+        /// </summary>
         public void GetFilePathList()
         {
-
-            //取得壓縮路徑清單
             logger.Trace("GetFilePathList Start");
             try
             {
@@ -125,11 +137,16 @@ namespace DataInput
             catch (Exception ex)
             {
                 logger.Error("GetFilePathList Error");
+                logger.Error($"Error Message:{ex}");
                 Console.WriteLine("GetFilePathList Error");
                 Console.WriteLine(ex);
             }
-            logger.Trace($"GetFilePathList Finish，共{foldersToCompress.Count}個Folder");
+            logger.Trace($"GetFilePathList Finish，{DateTime.Now.AddDays(-_backupDays+1).ToString("yyyyMMdd")}-{DateTime.Now.ToString("yyyyMMdd")}共{foldersToCompress.Count}個Folder");
         }
+        /// <summary>
+        /// 刪除檔案
+        /// </summary>
+        /// <param name="folderPath"></param>
         public void DeleteFolder(string folderPath)
         {
             try
@@ -140,19 +157,25 @@ namespace DataInput
             catch (Exception ex)
             {
                 logger.Error($"Delete {Path.GetFileName(folderPath)} File Error");
+                logger.Error($"Error Message:{ex}");
                 Console.WriteLine($"Delete {Path.GetFileName(folderPath)} File Error");
                 Console.WriteLine(ex);
             }
             logger.Trace($"Delete {Path.GetFileName(folderPath)} file");
         }
+
+        /// <summary>
+        /// 壓縮資料夾
+        /// </summary>
+        /// <param name="folderPath"></param>
+        /// <param name="zipArchive"></param>
+        /// <param name="entryPrefix"></param>
         public void CompressFolder(string folderPath, ZipArchive zipArchive, string entryPrefix)
         {
             string[] files = Directory.GetFiles(folderPath);
             string[] subFolders = Directory.GetDirectories(folderPath);
             try
             {
-
-
                 foreach (string file in files)
                 {
                     string entryPath = entryPrefix + Path.GetFileName(file);
@@ -170,15 +193,16 @@ namespace DataInput
             catch (Exception ex)
             {
                 logger.Error("Compress File Error");
+                logger.Error($"Error Message:{ex}");
                 Console.WriteLine($"Compress File Error");
                 Console.WriteLine(ex);
             }
+
             if (subFolders.Length + files.Length > 0)
             {
                 logger.Trace($"folder：{Path.GetFileName(folderPath)}，內有{subFolders.Length}個folder、{files.Length}個file");
                 logger.Trace($"Compress {Path.GetFileName(folderPath)} file");
                 Console.WriteLine(Path.GetFileName(folderPath));
-                Console.WriteLine(Path.Combine("", @"D:\\test\\backupfile"));
             }
         }
     }
