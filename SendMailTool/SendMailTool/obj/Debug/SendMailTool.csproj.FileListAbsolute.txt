@@ -1,0 +1,10 @@
+C:\Users\2200530M1CINAMIN\Desktop\work\SendMailTool\SendMailTool\bin\Debug\SendMailTool.exe.config
+C:\Users\2200530M1CINAMIN\Desktop\work\SendMailTool\SendMailTool\bin\Debug\SendMailTool.exe
+C:\Users\2200530M1CINAMIN\Desktop\work\SendMailTool\SendMailTool\bin\Debug\SendMailTool.pdb
+C:\Users\2200530M1CINAMIN\Desktop\work\SendMailTool\SendMailTool\obj\Debug\SendMailTool.csproj.AssemblyReference.cache
+C:\Users\2200530M1CINAMIN\Desktop\work\SendMailTool\SendMailTool\obj\Debug\SendMailTool.Form1.resources
+C:\Users\2200530M1CINAMIN\Desktop\work\SendMailTool\SendMailTool\obj\Debug\SendMailTool.Properties.Resources.resources
+C:\Users\2200530M1CINAMIN\Desktop\work\SendMailTool\SendMailTool\obj\Debug\SendMailTool.csproj.GenerateResource.cache
+C:\Users\2200530M1CINAMIN\Desktop\work\SendMailTool\SendMailTool\obj\Debug\SendMailTool.csproj.CoreCompileInputs.cache
+C:\Users\2200530M1CINAMIN\Desktop\work\SendMailTool\SendMailTool\obj\Debug\SendMailTool.exe
+C:\Users\2200530M1CINAMIN\Desktop\work\SendMailTool\SendMailTool\obj\Debug\SendMailTool.pdb
