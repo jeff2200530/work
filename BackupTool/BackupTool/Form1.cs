@@ -29,8 +29,17 @@ namespace BackupTool
             Backup b = new Backup();
             b.backup();
         }
-        private void button2_Click(object sender, EventArgs e)
+     
+
+        private void button2_Click_1(object sender, EventArgs e)
         {
+            Backup b = new Backup();
+            b.backup();
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

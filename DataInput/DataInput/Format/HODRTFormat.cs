@@ -5,7 +5,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataTransfer.Format
+namespace DataInput.Format
 {
     public class HODRTFormat 
     {

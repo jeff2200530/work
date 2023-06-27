@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\2200530M1CINAMIN\\Downloads\\DataInput\\DataInput\\DataInput\\DataInput.csproj": {}
+    "C:\\Users\\2200530M1CINAMIN\\Desktop\\work\\DataInput\\DataInput\\DataInput.csproj": {}
   },
   "projects": {
-    "C:\\Users\\2200530M1CINAMIN\\Downloads\\DataInput\\DataInput\\DataInput\\DataInput.csproj": {
+    "C:\\Users\\2200530M1CINAMIN\\Desktop\\work\\DataInput\\DataInput\\DataInput.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\2200530M1CINAMIN\\Downloads\\DataInput\\DataInput\\DataInput\\DataInput.csproj",
+        "projectUniqueName": "C:\\Users\\2200530M1CINAMIN\\Desktop\\work\\DataInput\\DataInput\\DataInput.csproj",
         "projectName": "DataInput",
-        "projectPath": "C:\\Users\\2200530M1CINAMIN\\Downloads\\DataInput\\DataInput\\DataInput\\DataInput.csproj",
+        "projectPath": "C:\\Users\\2200530M1CINAMIN\\Desktop\\work\\DataInput\\DataInput\\DataInput.csproj",
         "packagesPath": "C:\\Users\\2200530M1CINAMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\2200530M1CINAMIN\\Downloads\\DataInput\\DataInput\\DataInput\\obj\\",
+        "outputPath": "C:\\Users\\2200530M1CINAMIN\\Desktop\\work\\DataInput\\DataInput\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\2200530M1CINAMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0-windows7.0"
+          "net5.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -40,13 +40,17 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "dependencies": {
-            "NLog": {
+            "Dapper": {
               "target": "Package",
-              "version": "[5.2.0, )"
+              "version": "[2.0.123, )"
             },
-            "NLog.Config": {
+            "Microsoft.Extensions.Configuration": {
               "target": "Package",
-              "version": "[4.7.15, )"
+              "version": "[7.0.0, )"
+            },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.6.0, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",

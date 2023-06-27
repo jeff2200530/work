@@ -1,0 +1,70 @@
+2023-06-26 14:33:05.7421 | DEBUG | LogWriterTool.Program.Main | logDebug測試 
+
+2023-06-26 14:40:17.0664 | DEBUG | LogWriterTool.Program.Main | logDebug測試 
+
+2023-06-26 14:41:36.2339 | DEBUG | LogWriterTool.Program.Main | logDebug測試 
+
+2023-06-26 14:46:12.2912 | DEBUG | LogWriterTool.Program.Main | logDebug測試 
+
+2023-06-26 14:46:36.5701 | DEBUG | LogWriterTool.Program.Main | logDebug測試 
+
+2023-06-26 14:47:47.5447 | DEBUG | LogWriterTool.Program.Main | logDebug測試 
+
+2023-06-26 14:48:28.7550 | DEBUG | LogWriterTool.Program.Main | logDebug測試 
+
+2023-06-26 14:48:54.4377 | DEBUG | LogWriterTool.Program.Main | logDebug測試 
+
+2023-06-26 14:49:29.3784 | DEBUG | LogWriterTool.Program.Main | logDebug測試 
+
+2023-06-26 14:53:44.9578 | DEBUG | LogWriterTool.Program.Main | logDebug測試 
+
+2023-06-26 14:55:32.6821 | DEBUG | LogWriterTool.Program.Main | logDebug測試 
+
+2023-06-26 14:56:26.5150 | DEBUG | LogWriterTool.Program.Main | logDebug測試 
+
+2023-06-26 14:57:53.2045 | DEBUG | LogWriterTool.Program.Main | logDebug測試 
+
+2023-06-26 15:05:46.7649 | DEBUG | LogWriterTool.Program.Main | logDebug測試 
+
+2023-06-26 15:10:01.1194 | DEBUG | LogWriterTool.Program.Main | logDebug測試 
+
+2023-06-26 15:10:33.3810 | DEBUG | LogWriterTool.Program.Main | logDebug測試 
+
+2023-06-26 15:11:32.1019 | DEBUG | LogWriterTool.Program.Main | logDebug測試 
+
+2023-06-26 15:12:15.3471 | DEBUG | LogWriterTool.Program.Main | logDebug測試 
+
+2023-06-26 15:12:48.5662 | DEBUG | LogWriterTool.Program.Main | logDebug測試 
+
+2023-06-26 15:14:46.5123 | DEBUG | LogWriterTool.Program.Main | logDebug測試 
+
+2023-06-26 15:20:47.3884 | DEBUG | LogWriterTool.Program.Main | logDebug測試 
+
+2023-06-26 15:36:01.4034 | DEBUG | LogWriterTool.Program.Main | logDebug測試 
+
+2023-06-27 10:12:09.7630 | DEBUG | LogWriterTool.Program.Main | logDebug測試 
+
+2023-06-27 10:14:06.5396 | DEBUG | LogWriterTool.Program.Main | logDebug測試 
+
+2023-06-27 10:36:50.2430 | DEBUG | LogWriterTool.Program.Main | logDebug測試 
+
+2023-06-27 10:37:47.8507 | DEBUG | LogWriterTool.Program.Main | logDebug測試 
+
+2023-06-27 10:39:17.2422 | DEBUG | LogWriterTool.Program.Main | logDebug測試 
+
+2023-06-27 10:46:34.7574 | DEBUG | LogWriterTool.Program.Main | logDebug測試 
+
+2023-06-27 10:47:55.5761 | DEBUG | LogWriterTool.Program.Main | logDebug測試 
+
+2023-06-27 10:48:32.6318 | DEBUG | LogWriterTool.Program.Main | logDebug測試 
+
+2023-06-27 10:52:23.4967 | DEBUG | LogWriterTool.Program.Main | logDebug測試 
+
+2023-06-27 10:58:04.1074 | DEBUG | LogWriterTool.Program.Main | logDebug測試 
+
+2023-06-27 11:06:34.0316 | DEBUG | LogWriterTool.Program.Main | logDebug測試 
+
+2023-06-27 11:07:16.7535 | DEBUG | LogWriterTool.Program.Main | logDebug測試 
+
+2023-06-27 11:10:26.4986 | DEBUG | LogWriterTool.Program.Main | logDebug測試 
+

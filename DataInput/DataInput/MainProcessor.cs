@@ -1,70 +1,143 @@
 ﻿using DataInput.Format;
-using DataInput.Insert;
-using NLog;
+using DataInput.Query;
 using System;
 using System.Collections.Generic;
 using System.Data;
-using System.Data.SqlClient;
-using System.Diagnostics;
-using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace DataInput
 {
     public class MainProcessor : MainProcessorBase
     {
-        public FileWriter _writer = FileWriter.GetInstance();
-        public InsertBase _process = null;
-        public Request _request = null;
+        public QueryBase _process = null;
+        public string _processName = null;
+        public FileWriter _fileWriter = new FileWriter();
+        public FormFormat _input = null;
+        public string _properties = null;
+
+
+
+
+
         public MainProcessor() : base()
         {
+            if (_execute == "auto" & _tableName != null)
+            {
+                
+
+
+                foreach (var table in _tableName)
+                {
+                    Console.WriteLine($"execute {table}...");
+                    if (_execute == "auto" & (table == "trafuhord" | table == "trafuhtrd"))
+                    {
+                        _endTime = DateTime.Now.ToString("yyyy/MM/dd");
+                        _startTime = DateTime.Now.AddDays(-6).ToString("yyyy/MM/dd");
+                    }
+                    else if (_execute == "auto" & (table == "hmtht" | table == "hodrt"))
+                    {
+                        _endTime = DateTime.Now.ToString("yyyyMMdd");
+                        _startTime = DateTime.Now.AddDays(-6).ToString("yyyyMMdd");
+                    }
+                    _input = new FormFormat { processName = table, function = "query", startDate = _startTime, endDate = _endTime };
+
+                    new MainProcessor(_input);
+
+                }
+            }
+
+
+
+
         }
-        public void Execute(Request request)
+        public MainProcessor(FormFormat input)
         {
-            #region Log
-            logger.Trace("Execute開始執行");
-            #endregion
 
-            _request = request;
-            _process = InsertFactory.GetProcess(request);
+            Task thrad = new Task(() =>
+            {
+                DateTime nowDate = DateTime.ParseExact(input.startDate.Replace("/", ""), "yyyyMMdd", System.Globalization.CultureInfo.CurrentCulture);
+                DateTime endDate = DateTime.ParseExact(input.endDate.Replace("/", ""), "yyyyMMdd", System.Globalization.CultureInfo.CurrentCulture);
 
-            if (_process != null)
+                //startDate開始執行到endDate結束
+                while (DateTime.Compare(nowDate, endDate) != 1)
+                {
+                    //挑選實作
+                    _process = QueryFactory.GetProcess(input);
+
+                    //選取執行function
+                    switch (input.function)
+                    {
+
+                        case ("query"):
+                            ExecuteQuery();
+                            break;
+                        case ("getProperties"):
+                            ExecuteGetProperties();
+                            break;
+
+                        default:
+                            break;
+                    }
+
+                    nowDate = nowDate.AddDays(1);
+                    if (input.processName == "hmtht" | input.processName == "hodrt")
+                        input.startDate = nowDate.ToString("yyyyMMdd");
+                    else
+                        input.startDate = nowDate.ToString("yyyy/MM/dd");
+                }
+                nowDate = nowDate.AddDays(-1);
+                if (input.processName == "hmtht" | input.processName == "hodrt")
+                    input.startDate = nowDate.ToString("yyyyMMdd");
+                else
+                    input.startDate = nowDate.ToString("yyyy/MM/dd");
+               
+
+            });
+
+            thrad.Start();
+            Task.WaitAll(thrad);
+            _process = QueryFactory.GetProcess(input);
+            switch (input.function)
             {
-                #region Log
-                logger.Trace($"Execute結束 執行{_request.table}轉換");
-                #endregion
-                ExecuteInsert();
+
+                
+                case ("getProperties"):
+                    ExecuteGetProperties();
+                    break;
+
+                default:
+                    break;
             }
-            else
-            {
-                #region Log
-                logger.Error($"Execute失敗，無此資料");
-                #endregion
-            }
+
         }
-        public void ExecuteInsert()
+
+        /// <summary>
+        /// 執行資料查詢讀取
+        /// </summary>
+        public void ExecuteQuery()
         {
-            #region Log
-            logger.Trace($"ExecuteInsert開始");
-            #endregion
-
-            Stopwatch stopWatch = new Stopwatch();
-            stopWatch.Start();
-
-            DataTable data = new DataTable();
-            foreach (var file in _request.file)
+            Task subThread1 = new Task(() =>
             {
-                data = _process.TxtToDt(file.FullName);
-                _process.SetData(data);
-            }
-            stopWatch.Stop();
-            #region Log
-            logger.Trace($"檔案：{_request.table}，成功{_process._success}，失敗{_process._fail}，共{_process._count}筆，耗用時間{stopWatch.ElapsedMilliseconds}");
-            logger.Trace($"ExecuteInsert結束");
-            #endregion
+                _process.Query();
+            });
+            Task subThread2 = new Task(() =>
+            {
+                _process.toString();
+            });
+
+            subThread1.Start();
+            subThread2.Start();
+            Task.WaitAll(subThread1, subThread2);
+
         }
+        public void ExecuteGetProperties()
+        {
+            _properties = _process.GetProperties();
+        }
+
     }
 }
-

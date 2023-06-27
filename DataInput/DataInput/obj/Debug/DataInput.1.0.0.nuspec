@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DataInput</id>
+    <version>1.0.0</version>
+    <authors>DataInput</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0-windows7.0">
+        <dependency id="Dapper" version="2.0.123" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration" version="7.0.0" exclude="Build,Analyzers" />
+        <dependency id="NPOI" version="2.6.0" exclude="Build,Analyzers" />
+        <dependency id="System.Data.SqlClient" version="4.8.5" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net5.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\2200530M1CINAMIN\Desktop\work\DataInput\DataInput\bin\Debug\net5.0-windows\DataInput.runtimeconfig.json" target="lib\net5.0-windows7.0\DataInput.runtimeconfig.json" />
+    <file src="C:\Users\2200530M1CINAMIN\Desktop\work\DataInput\DataInput\bin\Debug\net5.0-windows\DataInput.dll" target="lib\net5.0-windows7.0\DataInput.dll" />
+  </files>
+</package>

@@ -5,7 +5,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataTransfer.Format
+namespace DataInput.Format
 {
     public class TraFuhordFormat
     {
@@ -120,7 +120,27 @@ srctype.Trim() + "," +
 omcnt.Trim() + "," +
 servercnt.Trim() + "," +
 clientseq.Trim() + "," +
-branchno.Trim();
+branchno.Trim() + "," +
+@operator.Trim() + "," +
+roleid.Trim() + "," +
+grpname.Trim() + "," +
+gserialno.Trim() + "," +
+gbatchno.Trim() + "," +
+exhordsn.Trim() + "," +
+expiredt.Trim() + "," +
+rectime.Trim() + "," +
+closetrd.Trim() + "," +
+remqty.Trim() + "," +
+dealqty.Trim() + "," +
+cxlqty.Trim() + "," +
+addqty.Trim() + "," +
+aeno.Trim() + "," +
+errormsg.Trim() + "," +
+lossmargin.Trim() + "," +
+hostname.Trim() + "," +
+hostip.Trim() + "," +
+ip.Trim() + "," +
+etype.Trim();
         }
         public string GetPropertiesString()
         {

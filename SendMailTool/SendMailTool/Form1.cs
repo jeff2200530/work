@@ -33,10 +33,11 @@ namespace SendMailTool
                 cc = new List<string>() { "s960152999@gmail.com" },
                 bcc = new List<string>() { "s9601529999@gmail.com" },
                 attachment = @"C:\Users\2200530M1CINAMIN\Desktop\backupFile\20230601\新增 文字文件.txt",
-                body = "第一封信!",
+                body = "我準備要下班嚕!",
                 password = "vnkiwrovenuwjsml"
             };
             process.SendMail(message);
+            MessageBox.Show("發送成功!");
         }
     }
 }
