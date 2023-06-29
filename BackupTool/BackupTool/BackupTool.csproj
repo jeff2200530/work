@@ -1,14 +1,31 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>WinExe</OutputType>
-    <TargetFramework>net5.0-windows</TargetFramework>
-    <UseWindowsForms>true</UseWindowsForms>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="C:\Users\2200530M1CINAMIN\.nuget\packages\nlog.config\4.7.15\contentFiles\any\any\NLog.config" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="NLog" Version="5.2.0" />
-    <PackageReference Include="NLog.Config" Version="4.7.15" />
+    <PackageReference Include="NLog.Config" Version="4.7.13" />
+    <PackageReference Include="NLog.Schema" Version="5.2.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Systex.Cube.Log.Spec">
+      <HintPath>..\..\CUBE\Uility\Systex.Cube\Systex.Cube.Spec\Systex.Cube.Spec\Systex.Cube.Log.Spec\bin\Release\net5.0\ref\Systex.Cube.Log.Spec.dll</HintPath>
+    </Reference>
+    <Reference Include="Systex.Cube.Models">
+      <HintPath>..\..\CUBE\Uility\Systex.Cube\Systex.Cube.Models\Systex.Cube.Models\bin\Release\net5.0\ref\Systex.Cube.Models.dll</HintPath>
+    </Reference>
+    <Reference Include="Systex.Tool.MessageWriter">
+      <HintPath>..\..\CUBE\Uility\Systex.Tool\Processor\Systex.Tool.MessageWriter\Systex.Tool.MessageWriter\bin\Release\net5.0\ref\Systex.Tool.MessageWriter.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

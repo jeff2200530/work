@@ -1,0 +1,10 @@
+C:\Users\2200530M1CINAMIN\Desktop\work\MSMQexecise\MSMQexecise\bin\Debug\MSMQexecise.exe.config
+C:\Users\2200530M1CINAMIN\Desktop\work\MSMQexecise\MSMQexecise\bin\Debug\MSMQexecise.exe
+C:\Users\2200530M1CINAMIN\Desktop\work\MSMQexecise\MSMQexecise\bin\Debug\MSMQexecise.pdb
+C:\Users\2200530M1CINAMIN\Desktop\work\MSMQexecise\MSMQexecise\obj\Debug\MSMQexecise.csproj.AssemblyReference.cache
+C:\Users\2200530M1CINAMIN\Desktop\work\MSMQexecise\MSMQexecise\obj\Debug\MSMQexecise.Form1.resources
+C:\Users\2200530M1CINAMIN\Desktop\work\MSMQexecise\MSMQexecise\obj\Debug\MSMQexecise.Properties.Resources.resources
+C:\Users\2200530M1CINAMIN\Desktop\work\MSMQexecise\MSMQexecise\obj\Debug\MSMQexecise.csproj.GenerateResource.cache
+C:\Users\2200530M1CINAMIN\Desktop\work\MSMQexecise\MSMQexecise\obj\Debug\MSMQexecise.csproj.CoreCompileInputs.cache
+C:\Users\2200530M1CINAMIN\Desktop\work\MSMQexecise\MSMQexecise\obj\Debug\MSMQexecise.exe
+C:\Users\2200530M1CINAMIN\Desktop\work\MSMQexecise\MSMQexecise\obj\Debug\MSMQexecise.pdb

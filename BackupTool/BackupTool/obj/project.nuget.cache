@@ -1,12 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "atK6BwCRRrJ+bxvs1cchRyH/XinuH0Zvv+SZUgTLfUhSDg+EpIx4g+IJeJUFX4+I91YLPsNH8pJmV25YKkNYaQ==",
+  "dgSpecHash": "HeFQ4AhrzTEfOhJtlb4YmLNvJU72NYuoQmRbH9Rsq3YgWoVmDddObZ2TT+5RXOdM5sfhjpnpbKwZ1RpWHVB+Uw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\2200530M1CINAMIN\\Desktop\\work\\BackupTool\\BackupTool\\BackupTool.csproj",
+  "projectFilePath": "C:\\Users\\2200530M1CINAMIN\\Desktop\\BackupTool\\BackupTool\\BackupTool.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\2200530M1CINAMIN\\.nuget\\packages\\nlog\\5.2.0\\nlog.5.2.0.nupkg.sha512",
-    "C:\\Users\\2200530M1CINAMIN\\.nuget\\packages\\nlog.config\\4.7.15\\nlog.config.4.7.15.nupkg.sha512",
-    "C:\\Users\\2200530M1CINAMIN\\.nuget\\packages\\nlog.schema\\4.7.15\\nlog.schema.4.7.15.nupkg.sha512"
+    "C:\\Users\\2200530M1CINAMIN\\.nuget\\packages\\nlog.config\\4.7.13\\nlog.config.4.7.13.nupkg.sha512",
+    "C:\\Users\\2200530M1CINAMIN\\.nuget\\packages\\nlog.schema\\5.2.0\\nlog.schema.5.2.0.nupkg.sha512",
+    "C:\\Users\\2200530M1CINAMIN\\.nuget\\packages\\system.configuration.configurationmanager\\7.0.0\\system.configuration.configurationmanager.7.0.0.nupkg.sha512",
+    "C:\\Users\\2200530M1CINAMIN\\.nuget\\packages\\system.security.accesscontrol\\6.0.0\\system.security.accesscontrol.6.0.0.nupkg.sha512",
+    "C:\\Users\\2200530M1CINAMIN\\.nuget\\packages\\system.security.cryptography.protecteddata\\7.0.0\\system.security.cryptography.protecteddata.7.0.0.nupkg.sha512",
+    "C:\\Users\\2200530M1CINAMIN\\.nuget\\packages\\system.security.permissions\\7.0.0\\system.security.permissions.7.0.0.nupkg.sha512",
+    "C:\\Users\\2200530M1CINAMIN\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }
