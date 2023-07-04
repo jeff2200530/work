@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Format\ExampleFormat.cs" />
+    <Compile Remove="Format\FormatBase.cs" />
+    <Compile Remove="Format\ShordFormat.cs" />
+    <Compile Remove="Format\TMTHTFormat.cs" />
+    <Compile Remove="Format\TraFutordFormat.cs" />
+    <Compile Remove="Format\TraFuttrdFormat.cs" />
+    <Compile Remove="Query\Ex1.cs" />
+    <Compile Remove="Query\Shord.cs" />
+    <Compile Remove="Query\TMTHT.cs" />
+    <Compile Remove="Query\TraFutord.cs" />
+    <Compile Remove="Query\TraFuttrd.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
+    <PackageReference Include="NPOI" Version="2.6.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+</Project>

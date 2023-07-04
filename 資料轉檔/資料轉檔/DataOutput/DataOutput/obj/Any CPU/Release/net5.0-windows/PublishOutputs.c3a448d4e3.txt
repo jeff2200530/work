@@ -1,0 +1,14 @@
+C:\Users\Jeff\Desktop\發布\ex\ex.exe
+C:\Users\Jeff\Desktop\發布\ex\NLog.config
+C:\Users\Jeff\Desktop\發布\ex\ex.dll
+C:\Users\Jeff\Desktop\發布\ex\ex.deps.json
+C:\Users\Jeff\Desktop\發布\ex\ex.runtimeconfig.json
+C:\Users\Jeff\Desktop\發布\ex\ex.dll.config
+C:\Users\Jeff\Desktop\發布\ex\ex.pdb
+C:\Users\Jeff\Desktop\發布\ex\NLog.dll
+C:\Users\Jeff\Desktop\發布\ex\System.Data.SqlClient.dll
+C:\Users\Jeff\Desktop\發布\ex\runtimes\win-arm64\native\sni.dll
+C:\Users\Jeff\Desktop\發布\ex\runtimes\win-x64\native\sni.dll
+C:\Users\Jeff\Desktop\發布\ex\runtimes\win-x86\native\sni.dll
+C:\Users\Jeff\Desktop\發布\ex\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Jeff\Desktop\發布\ex\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

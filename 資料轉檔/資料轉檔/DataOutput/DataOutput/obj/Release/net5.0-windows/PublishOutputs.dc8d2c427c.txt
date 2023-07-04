@@ -1,0 +1,12 @@
+C:\Users\Jeff\Desktop\發布\FutReply_304\FutReply_304.exe
+C:\Users\Jeff\Desktop\發布\FutReply_304\FutReply_304.dll
+C:\Users\Jeff\Desktop\發布\FutReply_304\FutReply_304.deps.json
+C:\Users\Jeff\Desktop\發布\FutReply_304\FutReply_304.runtimeconfig.json
+C:\Users\Jeff\Desktop\發布\FutReply_304\FutReply_304.dll.config
+C:\Users\Jeff\Desktop\發布\FutReply_304\FutReply_304.pdb
+C:\Users\Jeff\Desktop\發布\FutReply_304\System.Data.SqlClient.dll
+C:\Users\Jeff\Desktop\發布\FutReply_304\runtimes\win-arm64\native\sni.dll
+C:\Users\Jeff\Desktop\發布\FutReply_304\runtimes\win-x64\native\sni.dll
+C:\Users\Jeff\Desktop\發布\FutReply_304\runtimes\win-x86\native\sni.dll
+C:\Users\Jeff\Desktop\發布\FutReply_304\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Jeff\Desktop\發布\FutReply_304\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

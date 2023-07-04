@@ -1,0 +1,12 @@
+C:\SystexProject\Tool\BuildTool\Forever_Fu_Cube\cube\publish\FileMove\Daily\SecFileMove_Apply\SecFileMove_Apply.exe
+C:\SystexProject\Tool\BuildTool\Forever_Fu_Cube\cube\publish\FileMove\Daily\SecFileMove_Apply\SecFileMove_Apply.dll
+C:\SystexProject\Tool\BuildTool\Forever_Fu_Cube\cube\publish\FileMove\Daily\SecFileMove_Apply\SecFileMove_Apply.deps.json
+C:\SystexProject\Tool\BuildTool\Forever_Fu_Cube\cube\publish\FileMove\Daily\SecFileMove_Apply\SecFileMove_Apply.runtimeconfig.json
+C:\SystexProject\Tool\BuildTool\Forever_Fu_Cube\cube\publish\FileMove\Daily\SecFileMove_Apply\SecFileMove_Apply.dll.config
+C:\SystexProject\Tool\BuildTool\Forever_Fu_Cube\cube\publish\FileMove\Daily\SecFileMove_Apply\SecFileMove_Apply.pdb
+C:\SystexProject\Tool\BuildTool\Forever_Fu_Cube\cube\publish\FileMove\Daily\SecFileMove_Apply\System.Data.SqlClient.dll
+C:\SystexProject\Tool\BuildTool\Forever_Fu_Cube\cube\publish\FileMove\Daily\SecFileMove_Apply\runtimes\win-arm64\native\sni.dll
+C:\SystexProject\Tool\BuildTool\Forever_Fu_Cube\cube\publish\FileMove\Daily\SecFileMove_Apply\runtimes\win-x64\native\sni.dll
+C:\SystexProject\Tool\BuildTool\Forever_Fu_Cube\cube\publish\FileMove\Daily\SecFileMove_Apply\runtimes\win-x86\native\sni.dll
+C:\SystexProject\Tool\BuildTool\Forever_Fu_Cube\cube\publish\FileMove\Daily\SecFileMove_Apply\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\SystexProject\Tool\BuildTool\Forever_Fu_Cube\cube\publish\FileMove\Daily\SecFileMove_Apply\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

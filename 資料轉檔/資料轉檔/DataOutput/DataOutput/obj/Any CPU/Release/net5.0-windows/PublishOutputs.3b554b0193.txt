@@ -1,0 +1,14 @@
+C:\Users\Jeff\Desktop\發布\input\input.exe
+C:\Users\Jeff\Desktop\發布\input\NLog.config
+C:\Users\Jeff\Desktop\發布\input\input.dll
+C:\Users\Jeff\Desktop\發布\input\input.deps.json
+C:\Users\Jeff\Desktop\發布\input\input.runtimeconfig.json
+C:\Users\Jeff\Desktop\發布\input\input.dll.config
+C:\Users\Jeff\Desktop\發布\input\input.pdb
+C:\Users\Jeff\Desktop\發布\input\NLog.dll
+C:\Users\Jeff\Desktop\發布\input\System.Data.SqlClient.dll
+C:\Users\Jeff\Desktop\發布\input\runtimes\win-arm64\native\sni.dll
+C:\Users\Jeff\Desktop\發布\input\runtimes\win-x64\native\sni.dll
+C:\Users\Jeff\Desktop\發布\input\runtimes\win-x86\native\sni.dll
+C:\Users\Jeff\Desktop\發布\input\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Jeff\Desktop\發布\input\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

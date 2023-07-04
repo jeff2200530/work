@@ -1,0 +1,12 @@
+C:\Users\Jeff\Desktop\發布\FutFileMove_GrpD\FutFileMove_GrpD.exe
+C:\Users\Jeff\Desktop\發布\FutFileMove_GrpD\FutFileMove_GrpD.dll
+C:\Users\Jeff\Desktop\發布\FutFileMove_GrpD\FutFileMove_GrpD.deps.json
+C:\Users\Jeff\Desktop\發布\FutFileMove_GrpD\FutFileMove_GrpD.runtimeconfig.json
+C:\Users\Jeff\Desktop\發布\FutFileMove_GrpD\FutFileMove_GrpD.dll.config
+C:\Users\Jeff\Desktop\發布\FutFileMove_GrpD\FutFileMove_GrpD.pdb
+C:\Users\Jeff\Desktop\發布\FutFileMove_GrpD\System.Data.SqlClient.dll
+C:\Users\Jeff\Desktop\發布\FutFileMove_GrpD\runtimes\win-arm64\native\sni.dll
+C:\Users\Jeff\Desktop\發布\FutFileMove_GrpD\runtimes\win-x64\native\sni.dll
+C:\Users\Jeff\Desktop\發布\FutFileMove_GrpD\runtimes\win-x86\native\sni.dll
+C:\Users\Jeff\Desktop\發布\FutFileMove_GrpD\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Jeff\Desktop\發布\FutFileMove_GrpD\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

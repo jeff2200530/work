@@ -1,0 +1,12 @@
+C:\Users\Jeff\Desktop\發布\FutFileMove_HisDelete\FutFileMove_HisDelete.exe
+C:\Users\Jeff\Desktop\發布\FutFileMove_HisDelete\FutFileMove_HisDelete.dll
+C:\Users\Jeff\Desktop\發布\FutFileMove_HisDelete\FutFileMove_HisDelete.deps.json
+C:\Users\Jeff\Desktop\發布\FutFileMove_HisDelete\FutFileMove_HisDelete.runtimeconfig.json
+C:\Users\Jeff\Desktop\發布\FutFileMove_HisDelete\FutFileMove_HisDelete.dll.config
+C:\Users\Jeff\Desktop\發布\FutFileMove_HisDelete\FutFileMove_HisDelete.pdb
+C:\Users\Jeff\Desktop\發布\FutFileMove_HisDelete\System.Data.SqlClient.dll
+C:\Users\Jeff\Desktop\發布\FutFileMove_HisDelete\runtimes\win-arm64\native\sni.dll
+C:\Users\Jeff\Desktop\發布\FutFileMove_HisDelete\runtimes\win-x64\native\sni.dll
+C:\Users\Jeff\Desktop\發布\FutFileMove_HisDelete\runtimes\win-x86\native\sni.dll
+C:\Users\Jeff\Desktop\發布\FutFileMove_HisDelete\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Jeff\Desktop\發布\FutFileMove_HisDelete\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

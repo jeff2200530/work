@@ -1,0 +1,12 @@
+C:\Users\Jeff\Desktop\發布\test\test.exe
+C:\Users\Jeff\Desktop\發布\test\test.dll
+C:\Users\Jeff\Desktop\發布\test\test.deps.json
+C:\Users\Jeff\Desktop\發布\test\test.runtimeconfig.json
+C:\Users\Jeff\Desktop\發布\test\test.dll.config
+C:\Users\Jeff\Desktop\發布\test\test.pdb
+C:\Users\Jeff\Desktop\發布\test\System.Data.SqlClient.dll
+C:\Users\Jeff\Desktop\發布\test\runtimes\win-arm64\native\sni.dll
+C:\Users\Jeff\Desktop\發布\test\runtimes\win-x64\native\sni.dll
+C:\Users\Jeff\Desktop\發布\test\runtimes\win-x86\native\sni.dll
+C:\Users\Jeff\Desktop\發布\test\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Jeff\Desktop\發布\test\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
